@@ -6,12 +6,12 @@ const Particles = () => {
   return (
     <div
       style={{
-        height: "100%",
-        width: "100%",
-        position: "fixed",
+        top: "0",
+        left: "0",
+        position: "absolute",
       }}
     >
-      <Particle params={config} style={{ height: "100vh" }} />
+      <Particle params={config} style={{ width: "100%", height: "100%", position: "fixed",  }} />
     </div>
   );
 };
