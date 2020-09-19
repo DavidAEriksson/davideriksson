@@ -1,20 +1,19 @@
 import React, { useState, useRef } from "react";
 import Typed from "react-typed";
-import ParticleComponent from "../src/components/Particles.js";
+import { Link } from "react-scroll";
+
 import mountains from "../src/SVG/mountains.svg";
 import "../src/styles/app.scss";
 
+import ParticleComponent from "../src/components/Particles.js";
 import About from "./components/About";
-const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
-const App = () => {
-	const scrollRef = useRef(null);
-	const executeScroll = () => scrollToRef(scrollRef);
 
+const App = () => {
 	const [aboutState, setAboutState] = useState("0");
 	const handleClick = () => {
 		setAboutState("100vh");
-		console.log("aboutState: ", aboutState);
 	};
+
 	return (
 		<div className="page-wrapper">
 			<div className="app-wrapper">
@@ -43,15 +42,22 @@ const App = () => {
 				</div>
 
 				<div className="img-wrapper">
-					<i
-						className="gg-arrow-long-down-c"
-						onClick={(handleClick, executeScroll)}
-					></i>
+					<Link
+						className="link"
+						to="about"
+						onClick={handleClick}
+						smooth={true}
+						duration={1000}
+					>
+						<i class="gg-arrow-long-down-c"></i>
+					</Link>
 					<img src={mountains} className="mountains" alt="mountains" />
 				</div>
 			</div>
 			{/* Send prop style on button click here */}
-			<About ref={scrollRef} style={{ height: aboutState }} />
+			<div id="about">
+				<About style={{ height: aboutState }} />
+			</div>
 		</div>
 	);
 };
