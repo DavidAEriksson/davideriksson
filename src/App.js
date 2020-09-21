@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import Typed from "react-typed";
 import { Link } from "react-scroll";
 
@@ -9,57 +9,58 @@ import ParticleComponent from "../src/components/Particles.js";
 import About from "./components/About";
 
 const App = () => {
-	const [aboutState, setAboutState] = useState("0");
-	const handleClick = () => {
-		setAboutState("100vh");
-	};
+  const [aboutDivDisplayState, setAboutDivDisplayState] = useState("none");
 
-	return (
-		<div className="page-wrapper">
-			<div className="app-wrapper">
-				<ParticleComponent />
+  useEffect(() => {
+    console.log("aboutDivDisplayState: ", aboutDivDisplayState);
+  }, [aboutDivDisplayState]);
 
-				<div className="typed-container">
-					<Typed
-						strings={["David Eriksson"]}
-						typeSpeed={130}
-						className="typed-heading"
-					/>
+  return (
+    <div className="page-wrapper">
+      <div className="app-wrapper">
+        <ParticleComponent />
 
-					<Typed
-						strings={[
-							"User experience design",
-							"Front-end development",
-							"Back-end development",
-							"Database management",
-						]}
-						typeSpeed={130}
-						backSpeed={65}
-						smartBackspace={true}
-						loop={true}
-						className="typed-subheading"
-					/>
-				</div>
+        <div className="typed-container">
+          <Typed
+            strings={["David Eriksson"]}
+            typeSpeed={130}
+            className="typed-heading"
+          />
 
-				<div className="img-wrapper">
-					<Link
-						className="link"
-						to="about"
-						onClick={handleClick}
-						smooth={true}
-						duration={1000}
-					>
-						<i class="gg-arrow-long-down-c"></i>
-					</Link>
-					<img src={mountains} className="mountains" alt="mountains" />
-				</div>
-			</div>
-			{/* Send prop style on button click here */}
-			<div id="about">
-				<About style={{ height: aboutState }} />
-			</div>
-		</div>
-	);
+          <Typed
+            strings={[
+              "User experience design",
+              "Front-end development",
+              "Back-end development",
+              "Database management"
+            ]}
+            typeSpeed={130}
+            backSpeed={65}
+            smartBackspace={true}
+            loop={true}
+            className="typed-subheading"
+          />
+        </div>
+
+        <div className="img-wrapper">
+          <Link
+            className="link"
+            to="about"
+            smooth={true}
+            duration={1000}
+            onClick={() => setAboutDivDisplayState("flex")}
+          >
+            <i className="gg-arrow-long-down-c"></i>
+          </Link>
+          <img src={mountains} className="mountains" alt="mountains" />
+        </div>
+      </div>
+
+      <div id="about">
+        <About style={{ display: aboutDivDisplayState }} />
+      </div>
+    </div>
+  );
 };
 
 export default App;

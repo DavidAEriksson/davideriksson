@@ -1,13 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
 .about-wrapper {
-	background: rgb(67, 76, 94);
-	background: linear-gradient(
-		0deg,
-		rgba(67, 76, 94, 1) 0%,
-		rgba(59, 66, 82, 1) 100%
-	);
-	height: 100vh;
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+  background: rgb(67, 76, 94);
+  background: linear-gradient(
+    0deg,
+    rgba(67, 76, 94, 1) 0%,
+    rgba(59, 66, 82, 1) 100%
+  );
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+
+  h1 {
+    font-family: "Space Mono", monospace;
+    color: #d8dee9;
+    font-size: 36pt;
+    align-self: center;
+  }
+
+  .about-main-container {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    position: relative;
+    .about-pic {
+      width: 15%;
+      border-radius: 10px;
+      position: relative;
+    }
+    p {
+      margin-left: 2%;
+      font-family: "Roboto";
+      font-size: 12pt;
+      color: #d8dee9;
+      a {
+        text-decoration: none;
+        color: #d8dee9;
+        font-weight: bold;
+        transition: 0.2s;
+      }
+      a:hover {
+        cursor: pointer;
+        transition: 0.2s;
+        color: #8fbcbb;
+      }
+    }
+  }
+
+  .about-skills-container {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h2 {
+      font-family: "Space Mono", monospace;
+      color: #d8dee9;
+      font-size: 24pt;
+      align-self: center;
+    }
+
+    .skill-icons {
+      align-self: center;
+    }
+  }
+
+  .img-wrapper {
+    align-self: flex-end;
+    width: 100%;
+    text-align: center;
+    .landscape {
+      vertical-align: bottom;
+    }
+  }
 }
