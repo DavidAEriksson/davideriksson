@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import Projects from "./Projects";
 import { IconContext } from "react-icons";
 import {
   FaReact,
@@ -6,7 +7,8 @@ import {
   FaCss3Alt,
   FaHtml5,
   FaAndroid,
-  FaNodeJs
+  FaNodeJs,
+  FaDocker
 } from "react-icons/fa";
 import {
   DiMongodb,
@@ -16,12 +18,19 @@ import {
   DiIllustrator,
   DiMysql
 } from "react-icons/di";
+import { Link } from "react-scroll";
 
 import "../styles/about.scss";
 import landscape from "../SVG/landscape.svg";
 import aboutPic from "../IMG/davidaeriksson.jpg";
 
 const About = props => {
+  const [projectsDivDisplayState, setProjectsDivDisplayState] = useState(
+    "none"
+  );
+  useEffect(() => {
+    console.log("aboutDivDisplayState: ", projectsDivDisplayState);
+  }, [projectsDivDisplayState]);
   return (
     <div className="about-wrapper" style={props.style}>
       <h1>About</h1>
@@ -41,7 +50,7 @@ const About = props => {
           during my university
           <br /> studies that I found my passion for creating elegant solutions
           for
-          <br /> the web and mobile applications.
+          <br /> web and mobile applications.
         </p>
       </div>
       <div className="about-skills-container">
@@ -54,6 +63,7 @@ const About = props => {
               <DiJavascript1 />
               <FaCss3Alt />
               <FaHtml5 />
+              <FaDocker />
               <DiMongodb />
               <DiMysql />
               <FaJava />
@@ -66,7 +76,20 @@ const About = props => {
         </div>
       </div>
       <div className="img-wrapper">
+        <Link
+          className="link"
+          to="projects"
+          smooth={true}
+          duration={1000}
+          onClick={() => setProjectsDivDisplayState("flex")}
+        >
+          <i className="gg-arrow-long-down-c"></i>
+        </Link>
         <img src={landscape} className="landscape" alt="landscape.svg" />
+      </div>
+
+      <div id="projects">
+        <Projects style={{ display: projectsDivDisplayState }} />
       </div>
     </div>
   );

@@ -1,0 +1,11 @@
+.project-wrapper {
+  background: rgb(76, 86, 106);
+  background: linear-gradient(
+    0deg,
+    rgba(76, 86, 106, 1) 0%,
+    rgba(67, 76, 94, 1) 100%
+  );
+  height: auto;
+  width: 100%;
+  flex-direction: column;
+}
