@@ -67,29 +67,22 @@
     }
   }
 
-  .img-wrapper {
-    align-self: flex-end;
-    width: 100%;
-    text-align: center;
-    .link {
-      position: absolute;
-      left: 50%;
-      padding-top: 15%;
-      i {
-        height: 50px;
-        transition: 0.2s;
-        color: #d8dee9;
-      }
-
-      i:hover {
-        height: 60px;
-        transition: 0.2s;
-        cursor: pointer;
-        color: #8fbcbb;
-      }
+  .link {
+    align-self: center;
+    left: 50%;
+    padding-top: 15%;
+    z-index: 1;
+    i {
+      height: 50px;
+      transition: 0.2s;
+      color: #d8dee9;
     }
-    .landscape {
-      vertical-align: bottom;
+
+    i:hover {
+      height: 60px;
+      transition: 0.2s;
+      cursor: pointer;
+      color: #8fbcbb;
     }
   }
 }

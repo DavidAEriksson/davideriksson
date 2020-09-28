@@ -7,9 +7,9 @@ import "../src/styles/app.scss";
 
 import ParticleComponent from "../src/components/Particles.js";
 import About from "./components/About";
-
+import Projects from "./components/Projects";
 const App = () => {
-  const [aboutDivDisplayState, setAboutDivDisplayState] = useState("none");
+  const [aboutDivDisplayState, setAboutDivDisplayState] = useState("flex");
 
   useEffect(() => {
     console.log("aboutDivDisplayState: ", aboutDivDisplayState);
@@ -32,7 +32,8 @@ const App = () => {
               "User experience design",
               "Front-end development",
               "Back-end development",
-              "Database management"
+              "Database management",
+              "Project management",
             ]}
             typeSpeed={130}
             backSpeed={65}

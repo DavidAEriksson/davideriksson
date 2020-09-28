@@ -8,4 +8,57 @@
   height: auto;
   width: 100%;
   flex-direction: column;
+
+  p {
+    align-self: center;
+    font-family: "Roboto";
+    font-size: 12pt;
+    color: #d8dee9;
+  }
+
+  .project-card-container {
+    align-self: center;
+    display: flex;
+    width: 70%;
+    flex-flow: row wrap;
+    height: auto;
+    background: #2e3440;
+    border-radius: 10px;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 2%;
+
+    .project-card {
+      background: rgb(180, 142, 173);
+      background: linear-gradient(
+        332deg,
+        rgba(180, 142, 173, 1) 0%,
+        rgba(136, 192, 208, 1) 100%
+      );
+      align-self: flex-start;
+      display: flex;
+      flex-direction: column;
+      min-width: 45%;
+      max-width: 45%;
+      height: 400px;
+      margin: 2%;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      border-radius: 10px;
+    }
+  }
+
+  @media screen and (max-device-width: 480px) and (orientation: portrait) {
+    .project-card-container {
+      flex-flow: column nowrap;
+      margin-bottom: 4%;
+      padding-bottom: 4%;
+    }
+    .project-card {
+      align-self: center !important;
+      min-width: 90% !important;
+      margin: 0 !important;
+      margin-top: 4% !important;
+    }
+  }
 }

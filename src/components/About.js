@@ -8,7 +8,7 @@ import {
   FaHtml5,
   FaAndroid,
   FaNodeJs,
-  FaDocker
+  FaDocker,
 } from "react-icons/fa";
 import {
   DiMongodb,
@@ -16,17 +16,17 @@ import {
   DiPython,
   DiPhotoshop,
   DiIllustrator,
-  DiMysql
+  DiMysql,
 } from "react-icons/di";
 import { Link } from "react-scroll";
 
 import "../styles/about.scss";
-import landscape from "../SVG/landscape.svg";
+import landscape from "../SVG/landscapes2.svg";
 import aboutPic from "../IMG/davidaeriksson.jpg";
 
-const About = props => {
+const About = (props) => {
   const [projectsDivDisplayState, setProjectsDivDisplayState] = useState(
-    "none"
+    "flex"
   );
   useEffect(() => {
     console.log("aboutDivDisplayState: ", projectsDivDisplayState);
@@ -75,18 +75,16 @@ const About = props => {
           </IconContext.Provider>
         </div>
       </div>
-      <div className="img-wrapper">
-        <Link
-          className="link"
-          to="projects"
-          smooth={true}
-          duration={1000}
-          onClick={() => setProjectsDivDisplayState("flex")}
-        >
-          <i className="gg-arrow-long-down-c"></i>
-        </Link>
-        <img src={landscape} className="landscape" alt="landscape.svg" />
-      </div>
+
+      <Link
+        className="link"
+        to="projects"
+        smooth={true}
+        duration={1000}
+        onClick={() => setProjectsDivDisplayState("flex")}
+      >
+        <i className="gg-arrow-long-down-c"></i>
+      </Link>
 
       <div id="projects">
         <Projects style={{ display: projectsDivDisplayState }} />
