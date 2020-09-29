@@ -1,11 +1,11 @@
 .project-wrapper {
-  background: rgb(76, 86, 106);
+  height: auto;
+  background: rgb(136, 192, 208);
   background: linear-gradient(
     0deg,
-    rgba(76, 86, 106, 1) 0%,
+    rgba(136, 192, 208, 1) 0%,
     rgba(67, 76, 94, 1) 100%
   );
-  height: auto;
   width: 100%;
   flex-direction: column;
 
@@ -27,25 +27,6 @@
     position: relative;
     justify-content: center;
     margin-bottom: 2%;
-
-    .project-card {
-      background: rgb(180, 142, 173);
-      background: linear-gradient(
-        332deg,
-        rgba(180, 142, 173, 1) 0%,
-        rgba(136, 192, 208, 1) 100%
-      );
-      align-self: flex-start;
-      display: flex;
-      flex-direction: column;
-      min-width: 45%;
-      max-width: 45%;
-      height: 400px;
-      margin: 2%;
-      margin-top: 2%;
-      margin-bottom: 2%;
-      border-radius: 10px;
-    }
   }
 
   @media screen and (max-device-width: 480px) and (orientation: portrait) {

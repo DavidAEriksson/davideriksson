@@ -7,7 +7,6 @@ import "../src/styles/app.scss";
 
 import ParticleComponent from "../src/components/Particles.js";
 import About from "./components/About";
-import Projects from "./components/Projects";
 const App = () => {
   const [aboutDivDisplayState, setAboutDivDisplayState] = useState("flex");
 

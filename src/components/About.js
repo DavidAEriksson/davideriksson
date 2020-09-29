@@ -21,7 +21,6 @@ import {
 import { Link } from "react-scroll";
 
 import "../styles/about.scss";
-import landscape from "../SVG/landscapes2.svg";
 import aboutPic from "../IMG/davidaeriksson.jpg";
 
 const About = (props) => {
