@@ -14,12 +14,13 @@ const ProjectCard = (props) => {
 		<div data-aos="fade-up" className="card-container">
 			<h2>{props.project.projectName}</h2>
 			<div className="tool-icon-container">
-				<IconContext.Provider value={{ color: "#2e3440", size: "50px" }}>
+				<IconContext.Provider value={{ color: "#2e3440", size: "35px" }}>
 					<div>
 						<IconCounter icons={props.project.projectTools} />
 					</div>
 				</IconContext.Provider>
 			</div>
+			<p className="project-links"></p>
 			<p className="project-description">{props.project.projectDescription}</p>
 		</div>
 	);
