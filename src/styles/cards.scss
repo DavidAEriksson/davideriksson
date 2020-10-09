@@ -1,36 +1,63 @@
 .card-container {
-	background: #d8dee9;
-	align-self: flex-start;
-	display: flex;
-	flex-direction: column;
-	min-width: 90%;
-	height: auto;
-	margin: 2%;
-	margin-top: 2%;
-	margin-bottom: 2%;
-	border-radius: 5px;
+  background: #d8dee9;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-width: 90%;
+  height: auto;
+  margin: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 5px;
 
-	h2 {
-		font-family: "Space Mono", monospace;
-		text-transform: uppercase;
-		font-size: 18pt;
-		color: #2e3440;
-		align-self: flex-start;
-		margin-left: 5%;
-		margin-top: 3%;
-	}
-	.tool-icon-container {
-		align-self: flex-start;
-		width: auto;
-		height: auto;
-		margin-left: 5%;
-	}
-	.project-description {
-		align-self: flex-start;
-		font-family: "Roboto";
-		font-size: 12pt;
-		width: 65%;
-		margin-left: 5%;
-		color: #2e3440;
-	}
+  h2 {
+    font-family: "Space Mono", monospace;
+    text-transform: uppercase;
+    font-size: 18pt;
+    color: #2e3440;
+    align-self: flex-start;
+    margin-left: 5%;
+    margin-top: 3%;
+  }
+  .tool-icon-container {
+    align-self: flex-start;
+    width: auto;
+    height: auto;
+    margin-left: 5%;
+  }
+  h3 {
+    margin-left: 5%;
+    color: #2e3440;
+    font-family: "Space Mono", monospace;
+    text-transform: uppercase;
+  }
+  .project-description {
+    align-self: flex-start;
+    font-family: "Roboto";
+    font-size: 12pt;
+    width: 65%;
+    margin-left: 5%;
+    color: #2e3440;
+  }
+  .link-container {
+    align-self: flex-start;
+    width: auto;
+    height: auto;
+    margin-left: 5%;
+
+    .project-link {
+      margin-bottom: 5px;
+      margin-top: 0px;
+
+      a {
+        text-decoration: none;
+        color: #2e3440;
+        transition: 0.2s;
+      }
+      a:hover {
+        color: #b48ead;
+        transition: 0.2s;
+      }
+    }
+  }
 }
