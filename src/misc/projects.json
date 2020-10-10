@@ -1,153 +1,171 @@
 {
-  "projects": [
-    {
-      "projectName": "Risk-free stock platform",
-      "projectTools": {
-        "icons": [
-          { "icon": "FaReact" },
-          { "icon": "FaHtml5" },
-          { "icon": "FaSass" },
-          { "icon": "FaNodeJs" },
-          { "icon": "DiMysql" },
-          { "icon": "DiPython" }
-        ]
-      },
-      "projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-      "projectLinks": ["www.hello2.se", "www.hello1.se", "www.hello1.se"]
-    },
-    {
-      "projectName": "GeoReminders",
-      "projectTools": {
-        "icons": [
-          { "icon": "FaJava" },
-          { "icon": "FaAndroid" },
-          { "icon": "DiMysql" },
-          { "icon": "SiGooglemaps" }
-        ]
-      },
-      "projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-      "projectLinks": ["www.hello1.se", "www.hello1.se", "www.hello1.se"]
-    },
-    {
-      "projectName": "hello3",
-      "projectTools": {
-        "icons": [
-          { "icon": "FaReact" },
-          { "icon": "FaHtml5" },
-          { "icon": "FaSass" },
-          { "icon": "FaNodeJs" },
-          { "icon": "DiMysql" },
-          { "icon": "DiPython" }
-        ]
-      },
-      "projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-      "projectLinks": ["www.hello1.se", "www.hello1.se", "www.hello1.se"]
-    },
-    {
-      "projectName": "hello4",
-      "projectTools": {
-        "icons": [
-          { "icon": "FaReact" },
-          { "icon": "FaHtml5" },
-          { "icon": "FaSass" },
-          { "icon": "FaNodeJs" },
-          { "icon": "DiMysql" },
-          { "icon": "DiPython" }
-        ]
-      },
-      "projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-      "projectLinks": ["www.hello1.se", "www.hello1.se", "www.hello1.se"]
-    },
-    {
-      "projectName": "hello5",
-      "projectTools": {
-        "icons": [
-          { "icon": "FaReact" },
-          { "icon": "FaHtml5" },
-          { "icon": "FaSass" },
-          { "icon": "FaNodeJs" },
-          { "icon": "DiMysql" },
-          { "icon": "DiPython" }
-        ]
-      },
-      "projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-      "projectLinks": ["www.hello1.se", "www.hello1.se", "www.hello1.se"]
-    },
-    {
-      "projectName": "hello6",
-      "projectTools": {
-        "icons": [
-          { "icon": "FaReact" },
-          { "icon": "FaHtml5" },
-          { "icon": "FaSass" },
-          { "icon": "FaNodeJs" },
-          { "icon": "DiMysql" },
-          { "icon": "DiPython" }
-        ]
-      },
-      "projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-
-      "projectLinks": ["www.hello1.se", "www.hello1.se", "www.hello1.se"]
-    },
-    {
-      "projectName": "hello7",
-      "projectTools": {
-        "icons": [
-          { "icon": "FaReact" },
-          { "icon": "FaHtml5" },
-          { "icon": "FaSass" },
-          { "icon": "FaNodeJs" },
-          { "icon": "DiMysql" },
-          { "icon": "DiPython" }
-        ]
-      },
-      "projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-      "projectLinks": ["www.hello1.se", "www.hello1.se", "www.hello1.se"]
-    },
-    {
-      "projectName": "hello8",
-      "projectTools": {
-        "icons": [
-          { "icon": "FaReact" },
-          { "icon": "FaHtml5" },
-          { "icon": "FaSass" },
-          { "icon": "FaNodeJs" },
-          { "icon": "DiMysql" },
-          { "icon": "DiPython" }
-        ]
-      },
-      "projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-      "projectLinks": ["www.hello1.se", "www.hello1.se", "www.hello1.se"]
-    },
-    {
-      "projectName": "hello9",
-      "projectTools": {
-        "icons": [
-          { "icon": "FaJava" },
-          { "icon": "FaHtml5" },
-          { "icon": "FaSass" },
-          { "icon": "FaNodeJs" },
-          { "icon": "DiMysql" },
-          { "icon": "DiPython" }
-        ]
-      },
-      "projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-      "projectLinks": ["www.hello1.se", "www.hello1.se", "www.hello1.se"]
-    },
-    {
-      "projectName": "hello10",
-      "projectTools": {
-        "icons": [
-          { "icon": "FaReact" },
-          { "icon": "FaHtml5" },
-          { "icon": "FaSass" },
-          { "icon": "FaNodeJs" },
-          { "icon": "DiMysql" },
-          { "icon": "DiPython" }
-        ]
-      },
-      "projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-      "projectLinks": ["www.hello1.se", "www.hello1.se", "www.hello1.se"]
-    }
-  ]
+	"projects": [
+		{
+			"projectName": "Risk-free stock platform",
+			"projectTools": [
+				"FaReact",
+				"FaHtml5",
+				"FaSass",
+				"FaNodeJs",
+				"DiMysql",
+				"DiPython"
+			],
+			"projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+			"projectLinks": ["www.hello2.se", "www.hello1.se", "www.hello1.se"],
+			"projectImages": ["../IMG/project-images/davidaeriksson.jpg"]
+		},
+		{
+			"projectName": "GeoReminders",
+			"projectTools": [
+				"FaReact",
+				"FaHtml5",
+				"FaSass",
+				"FaNodeJs",
+				"DiMysql",
+				"DiPython"
+			],
+			"projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+			"projectLinks": ["www.hello1.se", "www.hello1.se", "www.hello1.se"],
+			"projectImages": [
+				"../IMG/project-images/davidaeriksson.jpg",
+				"../IMG/project-images/davidaeriksson.jpg"
+			]
+		},
+		{
+			"projectName": "hello3",
+			"projectTools": [
+				"FaReact",
+				"FaHtml5",
+				"FaSass",
+				"FaNodeJs",
+				"DiMysql",
+				"DiPython"
+			],
+			"projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+			"projectLinks": ["www.hello1.se", "www.hello1.se", "www.hello1.se"],
+			"projectImages": [
+				"../IMG/project-images/davidaeriksson.jpg",
+				"../IMG/project-images/davidaeriksson.jpg"
+			]
+		},
+		{
+			"projectName": "hello4",
+			"projectTools": [
+				"FaReact",
+				"FaHtml5",
+				"FaSass",
+				"FaNodeJs",
+				"DiMysql",
+				"DiPython"
+			],
+			"projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+			"projectLinks": ["www.hello1.se", "www.hello1.se", "www.hello1.se"],
+			"projectImages": [
+				"../IMG/project-images/davidaeriksson.jpg",
+				"../IMG/project-images/davidaeriksson.jpg"
+			]
+		},
+		{
+			"projectName": "hello5",
+			"projectTools": [
+				"FaReact",
+				"FaHtml5",
+				"FaSass",
+				"FaNodeJs",
+				"DiMysql",
+				"DiPython"
+			],
+			"projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+			"projectLinks": ["www.hello1.se", "www.hello1.se", "www.hello1.se"],
+			"projectImages": [
+				"../IMG/project-images/davidaeriksson.jpg",
+				"../IMG/project-images/davidaeriksson.jpg"
+			]
+		},
+		{
+			"projectName": "hello6",
+			"projectTools": [
+				"FaReact",
+				"FaHtml5",
+				"FaSass",
+				"FaNodeJs",
+				"DiMysql",
+				"DiPython"
+			],
+			"projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+			"projectLinks": ["www.hello1.se", "www.hello1.se", "www.hello1.se"],
+			"projectImages": [
+				"../IMG/project-images/davidaeriksson.jpg",
+				"../IMG/project-images/davidaeriksson.jpg"
+			]
+		},
+		{
+			"projectName": "hello7",
+			"projectTools": [
+				"FaReact",
+				"FaHtml5",
+				"FaSass",
+				"FaNodeJs",
+				"DiMysql",
+				"DiPython"
+			],
+			"projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+			"projectLinks": ["www.hello1.se", "www.hello1.se", "www.hello1.se"],
+			"projectImages": [
+				"../IMG/project-images/davidaeriksson.jpg",
+				"../IMG/project-images/davidaeriksson.jpg"
+			]
+		},
+		{
+			"projectName": "hello8",
+			"projectTools": [
+				"FaReact",
+				"FaHtml5",
+				"FaSass",
+				"FaNodeJs",
+				"DiMysql",
+				"DiPython"
+			],
+			"projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+			"projectLinks": ["www.hello1.se", "www.hello1.se", "www.hello1.se"],
+			"projectImages": [
+				"../IMG/project-images/davidaeriksson.jpg",
+				"../IMG/project-images/davidaeriksson.jpg"
+			]
+		},
+		{
+			"projectName": "hello9",
+			"projectTools": [
+				"FaReact",
+				"FaHtml5",
+				"FaSass",
+				"FaNodeJs",
+				"DiMysql",
+				"DiPython"
+			],
+			"projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+			"projectLinks": ["www.hello1.se", "www.hello1.se", "www.hello1.se"],
+			"projectImages": [
+				"../IMG/project-images/davidaeriksson.jpg",
+				"../IMG/project-images/davidaeriksson.jpg"
+			]
+		},
+		{
+			"projectName": "hello10",
+			"projectTools": [
+				"FaReact",
+				"FaHtml5",
+				"FaSass",
+				"FaNodeJs",
+				"DiMysql",
+				"DiPython"
+			],
+			"projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+			"projectLinks": ["www.hello1.se", "www.hello1.se", "www.hello1.se"],
+			"projectImages": [
+				"../IMG/project-images/davidaeriksson.jpg",
+				"../IMG/project-images/davidaeriksson.jpg"
+			]
+		}
+	]
 }

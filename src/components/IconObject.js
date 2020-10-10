@@ -1,6 +1,5 @@
 import React from "react";
 
-import { IconContext } from "react-icons";
 import {
 	FaReact,
 	FaJava,
@@ -22,7 +21,7 @@ import {
 import { SiFirebase, SiGooglemaps } from "react-icons/si";
 
 const IconObject = (props) => {
-	const Icon = props.icon.icon;
+	const Icon = props.icon;
 	if (Icon === "FaReact") {
 		return <FaReact />;
 	} else if (Icon === "FaJava") {

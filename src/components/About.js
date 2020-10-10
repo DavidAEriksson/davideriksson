@@ -19,6 +19,7 @@ import {
 	DiIllustrator,
 	DiMysql,
 } from "react-icons/di";
+import { SiFirebase } from "react-icons/si";
 import { Link } from "react-scroll";
 
 import "../styles/about.scss";
@@ -65,6 +66,7 @@ const About = (props) => {
 							<FaHtml5 />
 							<FaSass />
 							<FaDocker />
+							<SiFirebase />
 							<DiMongodb />
 							<DiMysql />
 							<FaJava />
