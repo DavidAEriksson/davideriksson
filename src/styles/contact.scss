@@ -8,6 +8,22 @@
   );
   width: 100%;
 
+  
+  h1 {
+    font-family: "Space Mono", monospace;
+    color: #d8dee9;
+    font-size: 36pt;
+    align-self: center;
+  }
+
+  p {
+    align-self: center;
+    font-family: "Roboto";
+    font-size: 12pt;
+    color: #d8dee9;
+  }
+
+
   .contact-div {
     position: relative;
     height: 100vh;
