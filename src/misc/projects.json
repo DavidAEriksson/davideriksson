@@ -1,171 +1,56 @@
 {
-	"projects": [
-		{
-			"projectName": "Risk-free stock platform",
-			"projectTools": [
-				"FaReact",
-				"FaHtml5",
-				"FaSass",
-				"FaNodeJs",
-				"DiMysql",
-				"DiPython"
-			],
-			"projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-			"projectLinks": ["www.hello2.se", "www.hello1.se", "www.hello1.se"],
-			"projectImages": ["../IMG/project-images/davidaeriksson.jpg"]
-		},
-		{
-			"projectName": "GeoReminders",
-			"projectTools": [
-				"FaReact",
-				"FaHtml5",
-				"FaSass",
-				"FaNodeJs",
-				"DiMysql",
-				"DiPython"
-			],
-			"projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-			"projectLinks": ["www.hello1.se", "www.hello1.se", "www.hello1.se"],
-			"projectImages": [
-				"../IMG/project-images/davidaeriksson.jpg",
-				"../IMG/project-images/davidaeriksson.jpg"
-			]
-		},
-		{
-			"projectName": "hello3",
-			"projectTools": [
-				"FaReact",
-				"FaHtml5",
-				"FaSass",
-				"FaNodeJs",
-				"DiMysql",
-				"DiPython"
-			],
-			"projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-			"projectLinks": ["www.hello1.se", "www.hello1.se", "www.hello1.se"],
-			"projectImages": [
-				"../IMG/project-images/davidaeriksson.jpg",
-				"../IMG/project-images/davidaeriksson.jpg"
-			]
-		},
-		{
-			"projectName": "hello4",
-			"projectTools": [
-				"FaReact",
-				"FaHtml5",
-				"FaSass",
-				"FaNodeJs",
-				"DiMysql",
-				"DiPython"
-			],
-			"projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-			"projectLinks": ["www.hello1.se", "www.hello1.se", "www.hello1.se"],
-			"projectImages": [
-				"../IMG/project-images/davidaeriksson.jpg",
-				"../IMG/project-images/davidaeriksson.jpg"
-			]
-		},
-		{
-			"projectName": "hello5",
-			"projectTools": [
-				"FaReact",
-				"FaHtml5",
-				"FaSass",
-				"FaNodeJs",
-				"DiMysql",
-				"DiPython"
-			],
-			"projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-			"projectLinks": ["www.hello1.se", "www.hello1.se", "www.hello1.se"],
-			"projectImages": [
-				"../IMG/project-images/davidaeriksson.jpg",
-				"../IMG/project-images/davidaeriksson.jpg"
-			]
-		},
-		{
-			"projectName": "hello6",
-			"projectTools": [
-				"FaReact",
-				"FaHtml5",
-				"FaSass",
-				"FaNodeJs",
-				"DiMysql",
-				"DiPython"
-			],
-			"projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-			"projectLinks": ["www.hello1.se", "www.hello1.se", "www.hello1.se"],
-			"projectImages": [
-				"../IMG/project-images/davidaeriksson.jpg",
-				"../IMG/project-images/davidaeriksson.jpg"
-			]
-		},
-		{
-			"projectName": "hello7",
-			"projectTools": [
-				"FaReact",
-				"FaHtml5",
-				"FaSass",
-				"FaNodeJs",
-				"DiMysql",
-				"DiPython"
-			],
-			"projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-			"projectLinks": ["www.hello1.se", "www.hello1.se", "www.hello1.se"],
-			"projectImages": [
-				"../IMG/project-images/davidaeriksson.jpg",
-				"../IMG/project-images/davidaeriksson.jpg"
-			]
-		},
-		{
-			"projectName": "hello8",
-			"projectTools": [
-				"FaReact",
-				"FaHtml5",
-				"FaSass",
-				"FaNodeJs",
-				"DiMysql",
-				"DiPython"
-			],
-			"projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-			"projectLinks": ["www.hello1.se", "www.hello1.se", "www.hello1.se"],
-			"projectImages": [
-				"../IMG/project-images/davidaeriksson.jpg",
-				"../IMG/project-images/davidaeriksson.jpg"
-			]
-		},
-		{
-			"projectName": "hello9",
-			"projectTools": [
-				"FaReact",
-				"FaHtml5",
-				"FaSass",
-				"FaNodeJs",
-				"DiMysql",
-				"DiPython"
-			],
-			"projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-			"projectLinks": ["www.hello1.se", "www.hello1.se", "www.hello1.se"],
-			"projectImages": [
-				"../IMG/project-images/davidaeriksson.jpg",
-				"../IMG/project-images/davidaeriksson.jpg"
-			]
-		},
-		{
-			"projectName": "hello10",
-			"projectTools": [
-				"FaReact",
-				"FaHtml5",
-				"FaSass",
-				"FaNodeJs",
-				"DiMysql",
-				"DiPython"
-			],
-			"projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-			"projectLinks": ["www.hello1.se", "www.hello1.se", "www.hello1.se"],
-			"projectImages": [
-				"../IMG/project-images/davidaeriksson.jpg",
-				"../IMG/project-images/davidaeriksson.jpg"
-			]
-		}
-	]
+  "projects": [
+    {
+      "projectName": "Risk-free stock platform",
+      "projectTools": [
+        "FaReact",
+        "FaHtml5",
+        "FaSass",
+        "FaNodeJs",
+        "DiMysql",
+        "DiPython"
+      ],
+      "projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "projectLinks": ["www.epictetus.dev"]
+    },
+    {
+      "projectName": "GeoReminders",
+      "projectTools": ["FaJava", "FaAndroid", "DiMysql"],
+      "projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "projectLinks": ["https://github.com/DavidAEriksson/GeoReminders"]
+    },
+    {
+      "projectName": "Apartyment",
+      "projectTools": ["FaReact", "SiFirebase", "FaNodeJs"],
+      "projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "projectLinks": ["https://github.com/pumaht20"]
+    },
+    {
+      "projectName": "input-validators-js",
+      "projectTools": ["FaNodeJs", "DiJavascript1"],
+      "projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "projectLinks": [
+        "https://github.com/DavidAEriksson/input-validators-js",
+        "https://www.npmjs.com/package/input-validators-js"
+      ]
+    },
+    {
+      "projectName": "Idag & Inatt",
+      "projectTools": ["FaHtml5", "FaCss3Alt", "DiPhotoshop", "DiIllustrator"],
+      "projectDescription": "Every year, my university programme holds a smaller job fair strictly for students within the programme. This is done partially to network with different organizations, celebrate the past year, and to send off the 4:th grade students. For the 2019 event, I was in charge of the PR-department, which mainly involved creating graphics for the event and re-designing the event page for the theme of the year.",
+      "projectLinks": ["http://idag.interaktion.nu/"]
+    },
+    {
+      "projectName": "Outdoor Navigation Treasure Hunt",
+      "projectTools": ["FaUnity"],
+      "projectDescription": "A project me and four other students worked on together with THNX Innovation for the course 'Design-Build-Test' at Umeå University. The specification of the project was decided together with the team at THNX; build an Android application that is capable of directing a AR-figure to real world points of interests. The application was meant to be a spring-board prototype for a currently existing application that was developed in-house by THNX Innovation called 'TiHi på Skattjakt'.",
+      "projectLinks": [""]
+    },
+    {
+      "projectName": "Thirty",
+      "projectTools": ["FaJava", "FaAndroid"],
+      "projectDescription": "A simple Dice Game to learn the foundations of Android Development that I did for the course 'Development of Mobile Applications' at Umeå University. The game is a slightly different version of 'Yahtzee' where the goal of the game is to get as many points as possible by matching the value of six dice to the value of a score-spinner.",
+      "projectLinks": ["https://github.com/DavidAEriksson/Thirty"]
+    }
+  ]
 }

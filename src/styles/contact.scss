@@ -1,0 +1,28 @@
+.contact-wrapper {
+  height: 100vh;
+  background: rgb(136, 192, 208);
+  background: linear-gradient(
+    0deg,
+    rgba(216, 222, 233, 1) 0%,
+    rgba(82, 100, 116, 1) 100%
+  );
+  width: 100%;
+
+  .contact-div {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    .img-wrapper-landscapes {
+      align-self: flex-end;
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      bottom: 0;
+      .landscape {
+        vertical-align: bottom;
+      }
+    }
+  }
+}
