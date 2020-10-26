@@ -13,6 +13,36 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  margin: 0;
+
+  .menu-wrapper {
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    width: auto;
+    position: fixed;
+    top: 5%;  
+    margin-left: 5%;
+
+    a {
+      position: relative;
+      text-decoration: none;
+      color: #d8dee9;
+      font-family: "Space Mono", monospace;
+      font-size: 14pt;
+      transition: 0.2s;
+    }
+
+    a:visited {
+      color: #d8dee9;
+    }
+
+    a:hover {
+      cursor: pointer;
+      transition: 0.2s;
+      color:  #8fbcbb;
+    }
+  }
 
   .app-wrapper {
     background: rgb(59, 66, 82);

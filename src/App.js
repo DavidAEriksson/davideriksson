@@ -18,6 +18,17 @@ const App = () => {
 
 	return (
 		<div className="page-wrapper">
+			<div className="menu-wrapper">
+				<Link className="link" to="about" smooth={true} duration={1000}>
+					<p>About</p>
+				</Link>
+				<Link className="link" to="projects" smooth={true} duration={1000}>
+					<p>Projects</p>
+				</Link>
+				<Link className="link" to="contact" smooth={true} duration={1000}>
+					<p>Contact</p>
+				</Link>
+			</div>
 			<div className="app-wrapper">
 				<ParticleComponent />
 
@@ -61,8 +72,14 @@ const App = () => {
 			<div id="about">
 				<About style={{ display: aboutDivDisplayState }} />
 			</div>
-			<Projects />
-			<Contact />
+
+			<div id="projects">
+				<Projects />
+			</div>
+
+			<div id="contact">
+				<Contact />
+			</div>
 		</div>
 	);
 };
