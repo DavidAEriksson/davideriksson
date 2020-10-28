@@ -8,7 +8,7 @@ import {
   FaFilePdf,
 } from "react-icons/fa";
 import { IconContext } from "react-icons";
-
+import resume from "../misc/CV.pdf";
 import "../styles/contact.scss";
 import landscape from "../SVG/landscape.svg";
 const Contact = () => {
@@ -154,7 +154,7 @@ const Contact = () => {
                 />
               </a>
 
-              <a href="../misc/CV.pdf" download style={{ color: "#d8dee9" }}>
+              <a href={resume} download style={{ color: "#d8dee9" }}>
                 <FaFilePdf
                   style={{ color: pdfColor, transition: "0.2s" }}
                   onMouseEnter={() => displayContainer(5)}
