@@ -23,6 +23,9 @@ body {
     position: fixed;
     top: 5%;  
     margin-left: 5%;
+    @media only screen and (max-width: 600px) {
+      display: none;
+    }
 
     a {
       position: relative;
@@ -31,6 +34,9 @@ body {
       font-family: "Space Mono", monospace;
       font-size: 14pt;
       transition: 0.2s;
+      @media only screen and (max-width: 600px) {
+        font-size: 12pt;
+      }
     }
 
     a:visited {
@@ -68,8 +74,10 @@ body {
         color: #d8dee9;
         font-size: 36pt;
         font-family: "Space Mono", monospace;
-
         align-self: center;
+        @media only screen and (max-width: 600px) {
+					font-size: 18pt;
+				}
       }
       .typed-subheading {
         color: #8fbcbb;
@@ -78,6 +86,9 @@ body {
         margin-bottom: auto;
         margin-top: auto;
         align-self: center;
+        @media only screen and (max-width: 600px) {
+					font-size: 14pt;
+				}
       }
     }
 
@@ -93,6 +104,9 @@ body {
           height: 50px;
           transition: 0.2s;
           color: #d8dee9;
+          @media only screen and (max-width: 600px) {
+            height: 40px;
+          }
         }
 
         i:hover {

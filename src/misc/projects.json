@@ -10,25 +10,25 @@
         "DiMysql",
         "DiPython"
       ],
-      "projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "projectDescription": "A completely risk-free platform for buying and selling stocks developed by me and six other people during the summer of 2020. The end goal of the application is to give kids and young adults an easy and loss-free way of learning about the stock market and how to trade in a responsible and profitable manner. The research on how to best educate younger people on how the stock market works is currently being done by Nils Fohlin as part of his master thesis. In the meantime the project is on hold, but you can still use the platform to buy and sell stocks on the Swedish market.",
       "projectLinks": ["https://www.epictetus.dev/landing-page"]
     },
     {
       "projectName": "GeoReminders",
       "projectTools": ["FaJava", "FaAndroid", "DiMysql"],
-      "projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "projectDescription": "An Android applikation to store reminders/tasks on geo-locations using the Google Maps Geolocation API. The stores long/lat-coordinates along with the reminder information and sends the user a notification when they return to the location.",
       "projectLinks": ["https://github.com/DavidAEriksson/GeoReminders"]
     },
     {
       "projectName": "Apartyment",
       "projectTools": ["FaReact", "SiFirebase", "FaNodeJs"],
-      "projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "projectDescription": "Apartyment is an application that helps users host and attend 'bicycle parties' and 'apartment rounds' which are common events at Swedish universities. The application helps the organizers generate a schedule for all of the group-stations throughout the evening, and a user can join the event through a 5-digit code. The application is built in React-Native and uses Cloud Firestore to manage and store all of the data.",
       "projectLinks": ["https://github.com/pumaht20"]
     },
     {
       "projectName": "input-validators-js",
       "projectTools": ["FaNodeJs", "DiJavascript1"],
-      "projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "projectDescription": "I got tired of looking up different kinds of regular expressions for input validation so I made my own npm-package which has a number of different functions that helps you regex forms.",
       "projectLinks": [
         "https://github.com/DavidAEriksson/input-validators-js",
         "https://www.npmjs.com/package/input-validators-js"

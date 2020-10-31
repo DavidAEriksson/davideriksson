@@ -9,7 +9,6 @@
   );
   width: 100%;
   flex-direction: column;
-
   h1 {
     font-family: "Space Mono", monospace;
     color: #d8dee9;
@@ -22,6 +21,9 @@
     font-family: "Roboto";
     font-size: 12pt;
     color: #d8dee9;
+    @media only screen and (max-width: 600px) {
+      width: 90% !important;
+    }
   }
 
   .project-card-container {
@@ -35,6 +37,9 @@
     position: relative;
     justify-content: center;
     margin-bottom: 2%;
+    @media only screen and (max-width: 600px) {
+      width: 90%
+    }
   }
 
   .project-link-arrow {

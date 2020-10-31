@@ -1,4 +1,12 @@
+$breakpoints: (phone: 640px, 
+               tablet: 768px, 
+               desktop: 1024px) !default;
+
+
 .card-container {
+
+	
+
 	background: #d8dee9;
 	align-self: flex-start;
 	display: flex;
@@ -44,15 +52,20 @@
 		width: auto;
 		height: auto;
 		margin-left: 5%;
+		
+
 
 		.project-link {
 			margin-bottom: 5px;
 			margin-top: 0px;
-
+			
 			a {
 				text-decoration: none;
 				color: #2e3440;
 				transition: 0.2s;
+				@media only screen and (max-width: 600px) {
+					word-break: break-all;
+				}
 			}
 			a:hover {
 				color: #b48ead;
@@ -68,3 +81,4 @@
 		height: auto;
 	}
 }
+
