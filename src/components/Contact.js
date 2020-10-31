@@ -121,7 +121,7 @@ const Contact = () => {
 
               <a
                 style={{ textDecoration: "none", color: "#D8DEE9" }}
-                href="href=mailto:daiveriksson96@outlook.com"
+                href="href=mailto:davideriksson96@outlook.com"
               >
                 <FaMailBulk
                   style={{ color: mailColor, transition: "0.2s" }}
